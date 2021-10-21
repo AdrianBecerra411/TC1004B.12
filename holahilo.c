@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#define NUM_THREADS 1000
+#define NUM_THREADS 10000
 int saldo;
 
 pthread_mutex_t lockSaldo = PTHREAD_MUTEX_INITIALIZER;
